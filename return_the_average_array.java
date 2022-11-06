@@ -9,9 +9,8 @@ public class return_the_average_array {
         int[] mas = new int[]{8, 6, 22, 5, 33};
         int value = 0;
         for (int i : mas) {
-            value = i + i;
+            value += i;
         }
         System.out.println((double) value / mas.length);
     }
 }
-
